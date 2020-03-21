@@ -1,0 +1,27 @@
+.stretch-container {
+    align-content: stretch;
+}
+
+.flex-start-container {
+    align-content: flex-start;
+}
+
+.flex-end-container {
+    align-content: flex-end;
+}
+
+.center-container {
+    align-content: center;
+}
+
+.space-around-container {
+    align-content: space-around;
+}
+
+.space-between-container {
+    align-content: space-between;
+}
+
+.must-use-align-items-aswell-container {
+    align-items: center;
+}

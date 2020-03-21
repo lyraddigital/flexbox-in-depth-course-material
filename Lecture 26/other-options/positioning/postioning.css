@@ -1,0 +1,27 @@
+.fancy-field {
+    position: relative;
+}
+
+.fancy-field .dollar-sign-label,
+.fancy-field .full-sign-label {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.fancy-field .dollar-sign-label {
+    left: 0;
+}
+
+.fancy-field .full-sign-label {
+    right: 0;
+}
+
+.fancy-field input {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}

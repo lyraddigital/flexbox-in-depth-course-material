@@ -1,0 +1,33 @@
+.gallery .arrow-table {
+    display: table;
+    height: 100%;
+}
+
+.gallery .arrow-table:first-of-type {
+    float: left;
+}
+
+.gallery .arrow-table:last-of-type {
+    float: right;
+}
+
+.gallery .arrow {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.gallery .arrow:first-of-type {
+    padding-left: 20px;
+}
+
+.gallery .arrow:last-of-type {
+    padding-right: 20px;
+} 
+
+.gallery ul {
+    overflow-x: hidden;
+}
+
+.gallery li {
+    display: table-cell;
+}

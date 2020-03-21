@@ -1,0 +1,35 @@
+.default-order .item {
+    order: 0;
+}
+
+.last-to-first .item:last-of-type {
+    order: -1;
+}
+
+.first-to-last .item:first-of-type {
+    order: 1;
+}
+
+.even-to-front .item:nth-of-type(even) {
+    order: -10;
+}
+
+.even-to-front .item:last-of-type {
+    order: -11;
+}
+
+.jumbled .item:nth-of-type(3) {
+    order: -2;
+}
+
+.jumbled .item:first-of-type {
+    order: -1;
+}
+
+.jumbled .item:last-of-type {
+    order: 0;
+}
+
+.jumbled .item:nth-of-type(2) {
+    order: 1;
+}

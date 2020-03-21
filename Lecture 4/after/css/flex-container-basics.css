@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+}
+
+.inline-container {
+    display: inline-flex;
+}

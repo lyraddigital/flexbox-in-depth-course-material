@@ -1,0 +1,36 @@
+.do-not-use-widths .item {
+    width: 60px;
+}
+
+.do-not-use-widths {
+    flex-direction: column;
+}
+
+.auto-basis-container .item:first-of-type {
+    flex-basis: auto;
+}
+
+.fixed-value-basis-container .item {
+    flex-basis: 70px;
+}
+
+.fixed-value-basis-container {
+    flex-direction: row;
+}
+
+.fluid-value-basis-container .item {
+    flex-basis: 23%;
+}
+
+.items-can-still-grow-container .item:first-of-type {
+    flex-grow: 1;
+}
+
+.items-can-still-shrink-container .item {
+    flex-basis: 100px;
+    flex-shrink: 0;
+}
+
+.items-can-still-shrink-container .item:first-of-type {
+    flex-shrink: 1;
+}

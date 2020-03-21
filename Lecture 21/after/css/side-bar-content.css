@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+
+.side-bar {
+    flex: 0 0 180px;
+    box-sizing: border-box;
+}
+
+.side-content {
+    flex: 1 1 0%;
+}

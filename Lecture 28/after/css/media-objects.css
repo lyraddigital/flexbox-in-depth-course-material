@@ -1,0 +1,11 @@
+.media, .comment {
+    display: flex;
+}
+
+.media section {
+    padding-left: 15px;
+}
+
+.comment section {
+    padding-left: 7px;
+}

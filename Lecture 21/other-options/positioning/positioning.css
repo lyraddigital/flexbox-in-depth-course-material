@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+}
+
+.side-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 180px;
+    box-sizing: border-box;
+}
+
+.side-content {
+    margin-left: 180px;
+    height: 100%;
+    box-sizing: border-box;
+}

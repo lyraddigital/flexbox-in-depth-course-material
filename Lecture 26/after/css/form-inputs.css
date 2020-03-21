@@ -1,0 +1,15 @@
+.fancy-field {
+    display: flex;
+}
+
+.fancy-field input {
+    flex: 1 0 0%;
+}
+
+.fancy-field .dollar-sign-label,
+.fancy-field .full-dollar-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 40px;
+}

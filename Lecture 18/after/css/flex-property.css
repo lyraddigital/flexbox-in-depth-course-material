@@ -1,0 +1,31 @@
+.three-parameter-container .item:first-of-type {
+    flex: 3 1 auto;
+}
+
+.two-parameter-grow-shrink .item:first-of-type {
+    flex: 2 0;
+}
+
+.two-parameter-grow-basis .item:first-of-type {
+    flex: 0 70px;
+}
+
+.initial-flex-container .item:first-of-type {
+    flex: initial;
+}
+
+.none-flex-container .item:first-of-type {
+    flex: none;
+}
+
+.auto-flex-container .item:first-of-type {
+    flex: auto;
+}
+
+.numeric-flex-container .item:first-of-type {
+    flex: 3;
+}
+
+.length-only-flex-container .item {
+    flex: 60px;
+}

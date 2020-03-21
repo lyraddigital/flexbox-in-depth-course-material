@@ -1,0 +1,17 @@
+.media img {
+    float: left;
+}
+
+.media::after, .comment::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.media section {
+    padding-left: 65px;
+}
+
+.comment section {
+    padding-left: 46px;
+}

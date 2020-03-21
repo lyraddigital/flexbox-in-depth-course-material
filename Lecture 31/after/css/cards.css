@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.card-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 0 300px;
+}
+
+.card-body {
+    flex: 1 0 0%;
+}
+
+.card > footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

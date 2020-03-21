@@ -1,0 +1,14 @@
+.fancy-field {
+    display: table;
+}
+
+.fancy-field .dollar-sign-label,
+.fancy-field .full-dollar-label {
+    display: table-cell;
+    width: 40px;
+    text-align: center;
+}
+
+.fancy-field input {
+    width: 100%;
+}

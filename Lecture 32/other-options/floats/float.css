@@ -1,0 +1,33 @@
+ .gallery .arrow {
+    padding: 0 20px;
+    height: 100%;
+    line-height: 200px;
+}
+
+.gallery .arrow:first-of-type {
+    float: left;
+}
+
+.gallery .arrow:last-of-type {
+    float: right;
+}
+
+.gallery-row {
+    overflow-x: hidden;
+}
+
+.gallery ul {
+    display: block;
+    white-space: nowrap;
+    width: 10000px;
+}
+
+.gallery li {
+    float: left;
+}
+
+.gallery ul::after {
+    display: block;
+    content: '';
+    clear: both;
+}

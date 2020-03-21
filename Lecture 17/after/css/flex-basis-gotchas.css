@@ -1,0 +1,35 @@
+.auto-zero-container .item {
+    flex-basis: 0;
+    width: 70px;
+}
+
+.auto-zero-container .item:first-of-type {
+    flex-basis: auto;
+}
+
+.max-width-container .item {
+    max-width: 70px;
+    flex-basis: 80px;
+    flex-shrink: 0;
+}
+
+.min-width-container .item {
+    min-width: 70px;
+    flex-basis: 60px;
+}
+
+.max-height-container,
+.min-height-container {
+    flex-direction: column;
+}
+
+.max-height-container .item {
+    max-height: 70px;
+    flex-basis: 80px;
+    flex-shrink: 0;
+}
+
+.min-height-container .item {
+    min-height: 70px;
+    flex-basis: 60px;
+}

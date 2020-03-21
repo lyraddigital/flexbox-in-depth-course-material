@@ -1,0 +1,7 @@
+.column {
+    display: inline-block;
+    margin-right: -2.5px;
+    box-sizing: border-box;
+    width: 33.33333333%;
+    height: 100%;
+}

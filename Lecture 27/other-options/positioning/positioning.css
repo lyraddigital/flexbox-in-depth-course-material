@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 70px;
+}
+
+nav, aside {
+    width: 160px;
+}
+
+header, footer, nav, aside {
+    position: absolute;
+}
+
+#holygrail-container, main {
+    position: relative;
+}
+
+header, footer, nav {
+    left: 0;
+}
+
+header, footer, aside {
+    right: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+header, nav, aside {
+    top: 0;
+}
+
+#holygrail-container {
+    padding: 70px 0;
+}
+
+section {
+    margin: 0 160px;
+}
+
+main, nav, section, aside {
+    height: 100%;
+}
+
+header, footer, nav, section, aside {
+    text-align: center;
+}

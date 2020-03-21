@@ -1,0 +1,16 @@
+.gallery .arrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50px;
+}
+
+.gallery ul {
+    display: flex;
+    overflow-x: hidden;
+}

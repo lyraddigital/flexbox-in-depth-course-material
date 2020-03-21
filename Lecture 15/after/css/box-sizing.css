@@ -1,0 +1,15 @@
+.width-container {
+    width: 300px;
+}
+
+.height-container {
+    height: 300px;
+}
+
+.content-box-sizing-container {
+    box-sizing: content-box;
+}
+
+.border-box-sizing-container {
+    box-sizing: border-box;
+}

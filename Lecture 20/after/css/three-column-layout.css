@@ -1,0 +1,7 @@
+.page-layout {
+    display: flex;
+}
+
+.column {
+    flex: 1 1 0%;
+}

@@ -1,0 +1,25 @@
+.gallery .arrow {
+    position: absolute;
+    padding: 0 20px;
+    height: 100%;
+    line-height: 200px;
+}
+
+.gallery .arrow:first-of-type {
+    left: 0;
+}
+
+.gallery .arrow:last-of-type {
+    right: 0;
+}
+
+.gallery ul {
+    display: block;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.gallery li {
+    display: inline-block;
+    margin-right: -3px;
+}

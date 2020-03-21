@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Box Sizing Reviewed</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/box-sizing.css" />
+</head>
+<body>
+    <div class="white-container width-container content-box-sizing-container">
+        <p>
+            When specifying a width of <strong>300px</strong> for 
+            this container, it's really <strong>352 pixels</strong> 
+            wide.
+        </p>
+
+        <p>
+            This is because we are using the default value
+            value of <strong>box-sizing</strong> which is 
+            <strong>"content-box"</strong>
+        </p>
+
+        <p>
+            This value ensures the width is applied to the 
+            content only, making it <strong>300 pixels</strong>.
+            It does not take into consideration any padding 
+            or borders. Hence why the size of the container
+            is <strong>52 pixels wider</strong> than you expect.
+        </p>
+    </div>
+
+    <div class="white-container width-container border-box-sizing-container">
+        <p>
+            When specifying a width of <strong>300px</strong> for 
+            this container, it's exactly this wide.
+        </p>
+    
+        <p>
+            This is because we are using a <strong>box-sizing</strong>
+            value of <strong>"border-box"</strong>
+        </p>
+
+        <p>
+            This ensures that when we specify a width for an element
+            we know how big it should be on the screen. It does factor in
+            padding and borders into the overall width of the element.
+        </p>
+    </div>
+
+    <div class="white-container height-container border-box-sizing-container">
+        <p>
+            Box sizing also applies to the height of an element.
+            So this element is exactly <strong>300 pixels high</strong>.
+        </p>
+    </div>
+</body>
+</html>

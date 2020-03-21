@@ -1,0 +1,11 @@
+.media img {
+    position: absolute;
+}
+
+.media section {
+    padding-left: 65px;
+}
+
+.comment section {
+    padding-left: 46px;
+}

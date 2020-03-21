@@ -1,0 +1,30 @@
+#holygrail-container, #header-table, main, #footer-table {
+    width: 100%;
+    display: table;
+}
+
+.holygrail-row {
+    display: table-row;
+}
+
+.fixed-row {
+    height: 70px;
+}
+
+#header-table, main, #footer-table, header, footer {
+    height: 100%;
+}
+
+header, footer, nav, section, aside  {
+    display: table-cell;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+header, footer {
+    vertical-align: middle;
+}
+
+nav, aside {
+    width: 160px;
+}

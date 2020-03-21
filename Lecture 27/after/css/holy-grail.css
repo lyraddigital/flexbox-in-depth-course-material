@@ -1,0 +1,35 @@
+* {
+    flex: 0 0 0%;
+    box-sizing: border-box;
+}
+
+#holygrail-container {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+header, footer {
+    flex: 0 0 70px;
+}
+
+nav, aside {
+    flex: 0 0 160px;
+}
+
+main > section {
+    flex: 1 1 0%;
+}
+
+header, footer, nav, aside, main > section {
+    display: flex;
+    justify-content: center;
+}
+
+header, footer {
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.field-row {
+    position: relative;
+}
+
+.field-row > label {
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+}
+
+.field-row > input, .field-row > textarea {
+    margin-left: 40%;
+    width: 60%;
+}
+
+.top-align-label > label {
+    top: 0;
+    margin-top: 8px;
+}

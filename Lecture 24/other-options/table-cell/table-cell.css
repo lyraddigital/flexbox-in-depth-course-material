@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: table;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+}
+
+header, main, footer {
+    display: table-cell;
+}

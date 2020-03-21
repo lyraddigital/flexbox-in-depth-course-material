@@ -1,0 +1,19 @@
+.side-bar, .side-content {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.side-bar {
+    float: left;
+    width: 180px;
+}
+
+.side-content {
+    padding-left: 200px;
+}
+
+.container {
+    display: block;
+    content: '';
+    clear: both;
+}

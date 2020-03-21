@@ -1,0 +1,28 @@
+.same-ratio .item {
+    flex-grow: 2;
+}
+
+.one-one-two .item {
+    flex-grow: 1;
+}
+
+.one-one-two .item:last-of-type {
+    flex-grow: 2;
+}
+
+.one-one-three .item {
+    flex-grow: 1;
+}
+
+.one-one-three .item:last-of-type {
+    flex-grow: 3;
+}
+
+.two-one-two .item {
+    flex-grow: 1;
+}
+
+.two-one-two .item:first-of-type,
+.two-one-two .item:last-of-type {
+    flex-grow: 2;
+}

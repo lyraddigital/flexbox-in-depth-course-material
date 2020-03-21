@@ -1,0 +1,8 @@
+#side-bar {
+    background: #0048AA;
+    border-radius: 10px 0 0 10px;
+}
+
+#chat-window {
+    border-radius: 0 10px 10px 0;
+}
