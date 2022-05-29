@@ -2,7 +2,7 @@
 
 The repository contains the resources needed to follow along with the Flexbox In Depth playlist on YouTube. You can check it out by checking out the url below.
 
-[https://www.youtube.com/playlist?list=PLsS7rcLJIvNPvNBmU0ONjpchRitaiq5dq](https://www.youtube.com/playlist?list=PLsS7rcLJIvNPvNBmU0ONjpchRitaiq5dq)
+[[https://www.youtube.com/playlist?list=PLsS7rcLJIvNPvNBmU0ONjpchRitaiq5dq]([https://www.youtube.com/watch?v=Kj285QeV2N8)](https://www.youtube.com/playlist?list=PLsS7rcLJIvNPvNBmU0ONjpchRitaiq5dq](https://www.youtube.com/watch?v=Kj285QeV2N8))
 
 ## Course Material Structure
 
